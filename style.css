@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    width: 100%;
+    margin: 10px 10px;
+    /*padding: 40px;*/
+    background-color: #000;
+    overflow: hidden;
+}
+
+.heading {
+    color: #fff;
+    text-align: center;
+
+}
+
+.img_1 {
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.img_2{
+    display: none;
+}
+
+@media only screen and (max-width:600px){
+    .img_1{
+        display: none;
+    }
+
+    .img_2 {
+        display: block;
+    }
+}
